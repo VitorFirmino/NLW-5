@@ -1,0 +1,49 @@
+.headerContainer {
+  background: var(--white);
+  height: 6.5rem;
+
+  display: flex;
+  align-items: center;
+
+  padding: 2rem 4rem;
+
+  border-bottom: 1px solid var(--gray-100);
+
+  p {
+    margin-left: 2rem;
+    padding: 0.25rem 0 0.25rem 2rem;
+    border-left: 1px solid var(--gray-100);
+  }
+
+  .toggleTheme {
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--gray-800);
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    position: absolute;
+    right: 38rem;
+    top: 0;
+    
+    
+    .iconNight {
+      margin-left: 2.5rem;
+      width: 2rem;
+      height: 3rem;
+    }
+  
+    .iconLight {
+      color: yellow;
+      margin-left: 0.3rem;
+      width: 2rem;
+      height: 3rem;
+    }
+  }
+
+  span {
+    margin-left: auto;
+    text-transform: capitalize;
+  }
+}
