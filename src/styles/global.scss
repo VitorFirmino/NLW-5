@@ -40,7 +40,7 @@
 }
 
 
-@media (max-width: 1366px) {
+@media (max-width: 1406px) {
   html {
     font-size: 80%;
   }
@@ -92,3 +92,27 @@ h2 {
 button {
   cursor: pointer;
 }
+
+// scroll bar settings 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: var(--gray-100);
+  border-left: 1px solid var(--white);
+}
+
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: var(--gray-200);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: var(--gray-500);
+}
+
+// 
